@@ -17,7 +17,7 @@ const cors=require('cors');
 const PORT=3500;
 app.use(cors());
 
-~
+
 // middleware routes
 app.use(express.json());
 app.use('/users',UserRouter);
